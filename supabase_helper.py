@@ -66,7 +66,7 @@ def get_all_image_urls():
 # Test the functions
 def test_functions():
     # Replace with an actual image URL from your Supabase Storage
-    test_img_url = 'https://hgbhohchavurggrbwwta.supabase.co/storage/v1/object/public/images/sample.jpg'
+    test_img_url = 'an actual image URL from your Supabase Storage'
     img = get_image_from_supabase(test_img_url)
     if img is not None:
         print("Image fetched and converted successfully.")
